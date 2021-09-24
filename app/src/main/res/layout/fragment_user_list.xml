@@ -6,11 +6,11 @@
 
         <variable
             name="viewModel"
-            type="com.howettl.mvvm.ui.user.UserListViewModel" />
+            type="com.kawal.mvvm.ui.user.UserListViewModel" />
 
         <variable
             name="adapter"
-            type="com.howettl.mvvm.ui.user.UserListAdapter" />
+            type="com.kawal.mvvm.ui.user.UserListAdapter" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

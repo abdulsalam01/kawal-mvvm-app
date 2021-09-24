@@ -7,7 +7,7 @@
 
         <variable
             name="user"
-            type="com.howettl.mvvm.data.model.User" />
+            type="com.kawal.mvvm.data.model.User" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

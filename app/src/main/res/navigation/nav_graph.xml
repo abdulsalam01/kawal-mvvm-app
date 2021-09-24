@@ -3,20 +3,29 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/userListFragment">
+    app:startDestination="@id/frontMenuFragment">
+
+    <fragment
+        android:id="@+id/frontMenuFragment"
+        android:name="com.kawal.mvvm.ui.front_menu.FrontMenuFragment"
+        android:label="FrontMenuFragment"
+        tools:layout="@layout/front_menu_fragment">
+
+    </fragment>
 
     <fragment
         android:id="@+id/userListFragment"
-        android:name="com.howettl.mvvm.ui.user.UserListFragment"
+        android:name="com.kawal.mvvm.ui.user.UserListFragment"
         android:label="UserListFragment"
         tools:layout="@layout/fragment_user_list" >
         <action
             android:id="@+id/action_userListFragment_to_userDetailFragment"
             app:destination="@id/userDetailFragment" />
     </fragment>
+
     <fragment
         android:id="@+id/userDetailFragment"
-        android:name="com.howettl.mvvm.ui.user.UserDetailFragment"
+        android:name="com.kawal.mvvm.ui.user.UserDetailFragment"
         android:label="UserDetailFragment" >
         <argument
             android:name="userId"

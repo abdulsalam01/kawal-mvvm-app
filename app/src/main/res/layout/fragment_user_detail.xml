@@ -7,15 +7,15 @@
 
         <variable
             name="detailViewModel"
-            type="com.howettl.mvvm.ui.user.UserDetailViewModel" />
+            type="com.kawal.mvvm.ui.user.UserDetailViewModel" />
 
         <variable
             name="user"
-            type="com.howettl.mvvm.data.model.User" />
+            type="com.kawal.mvvm.data.model.User" />
 
         <variable
             name="postAdapter"
-            type="com.howettl.mvvm.ui.post.PostAdapter" />
+            type="com.kawal.mvvm.ui.post.PostAdapter" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

@@ -7,12 +7,16 @@ apply plugin: 'androidx.navigation.safeargs'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "com.howettl.mvvm"
+        applicationId "com.kawal.mvvm"
         minSdkVersion 28
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
-        buildConfigField "String", "BASE_URL", "\"https://jsonplaceholder.typicode.com\""
+        buildConfigField("String", "BASE_URL", "\"https://genzjjlszpqfmrkaaqdw.supabase.co\"")
+        buildConfigField("String", "PREFIX", "\"/rest/v1\"")
+        buildConfigField("String", "DISTRICT_API", "\"/district\"")
+        buildConfigField("String", "VILLAGE_API", "\"/village\"")
+        buildConfigField("String", "VOTER_API", "\"/voter\"")
     }
     buildTypes {
         release {
@@ -35,6 +39,10 @@ dependencies {
 
     // Koin
     implementation 'org.koin:koin-android-viewmodel:2.0.1'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.3.1'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1'
+    implementation 'androidx.annotation:annotation:1.1.0'
 
     // Retrofit
     def retrofit_version = '2.5.0'

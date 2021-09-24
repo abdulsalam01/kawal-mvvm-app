@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="api_key">eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiYW5vbiIsImlhdCI6MTYzMjEwNTQ5MiwiZXhwIjoxOTQ3NjgxNDkyfQ.Ol6kL6-hneYgBxA4r3h4QPhv3XlyuyU1jF-EQFoYSMU</string>
+    <string name="auth">Bearer: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiYW5vbiIsImlhdCI6MTYzMjEwNTQ5MiwiZXhwIjoxOTQ3NjgxNDkyfQ.Ol6kL6-hneYgBxA4r3h4QPhv3XlyuyU1jF-EQFoYSMU</string>
+</resources>
